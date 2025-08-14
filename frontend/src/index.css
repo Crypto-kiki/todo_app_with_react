@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+@layer components {
+  .todo-item {
+    @apply bg-white rounded-lg shadow-sm border border-gray-200 p-4 hover:shadow-md transition-shadow duration-200;
+  }
+}
